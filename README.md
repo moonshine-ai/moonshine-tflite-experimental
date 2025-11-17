@@ -2,11 +2,7 @@
 
 TensorFlow Lite port of Moonshine speech to text models
 
-## Files
-
-TensorFlow Lite versions of the Moonshine models are [available on HuggingFace](https://huggingface.co/UsefulSensors/moonshine/tree/main/tflite). They will also be automatically downloaded if you run the `transcribe.py` script.
-
-## Running Moonshine
+## Running Moonshine using TensorFlow Lite
 
 ```bash
 python transcribe.py
@@ -19,6 +15,10 @@ The `transcribe.py` script gives an example of how to run speech recognition in 
  - The name of the model architecture to use, either `tiny` or `base`. Defaults. to `base`.
 
  - Path to a folder containing the four model files necessary for inference. If none is specified, defaults to `models` and loads the model files in this repository.
+
+## Model Files
+
+TensorFlow Lite versions of the English-language Moonshine models are part of this repository in the `models` folder.
 
  ## Converting from Keras
 
